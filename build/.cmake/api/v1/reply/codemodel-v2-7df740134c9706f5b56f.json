@@ -1,0 +1,138 @@
+{
+	"configurations" : 
+	[
+		{
+			"directories" : 
+			[
+				{
+					"build" : ".",
+					"childIndexes" : 
+					[
+						1
+					],
+					"jsonFile" : "directory-.-Debug-f5ebdc15457944623624.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.10"
+					},
+					"projectIndex" : 0,
+					"source" : ".",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						3,
+						4,
+						5
+					]
+				},
+				{
+					"build" : "GeographicLib",
+					"jsonFile" : "directory-GeographicLib-Debug-36bb66d4954aeb8fe0f5.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "2.8.4"
+					},
+					"parentIndex" : 0,
+					"projectIndex" : 1,
+					"source" : "3rd/GeographicLib",
+					"targetIndexes" : 
+					[
+						2
+					]
+				}
+			],
+			"name" : "Debug",
+			"projects" : 
+			[
+				{
+					"childIndexes" : 
+					[
+						1
+					],
+					"directoryIndexes" : 
+					[
+						0
+					],
+					"name" : "gps_imu_fusion",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						3,
+						4,
+						5
+					]
+				},
+				{
+					"directoryIndexes" : 
+					[
+						1
+					],
+					"name" : "GeographicLib",
+					"parentIndex" : 0,
+					"targetIndexes" : 
+					[
+						2
+					]
+				}
+			],
+			"targets" : 
+			[
+				{
+					"directoryIndex" : 0,
+					"id" : "DEPS::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-DEPS-Debug-85b7f1af67789b2bd198.json",
+					"name" : "DEPS",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "gps_imu_fusion::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-gps_imu_fusion-Debug-c7db455086f2eb44c4e7.json",
+					"name" : "gps_imu_fusion",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 1,
+					"id" : "libGeographiccc::@853f8aec3bbc373a19f7",
+					"jsonFile" : "target-libGeographiccc-Debug-52a67b84656a086b539a.json",
+					"name" : "libGeographiccc",
+					"projectIndex" : 1
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "test_gps::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-test_gps-Debug-69641eb3537d7c8b87dc.json",
+					"name" : "test_gps",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "test_imu::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-test_imu-Debug-298ba0c3303355d86e35.json",
+					"name" : "test_imu",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "test_tool::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-test_tool-Debug-2450daf94ea428ae467f.json",
+					"name" : "test_tool",
+					"projectIndex" : 0
+				}
+			]
+		}
+	],
+	"kind" : "codemodel",
+	"paths" : 
+	{
+		"build" : "/home/corki/eskf/build",
+		"source" : "/home/corki/eskf"
+	},
+	"version" : 
+	{
+		"major" : 2,
+		"minor" : 3
+	}
+}

@@ -1,0 +1,34 @@
+# earth
+earth_rotation_speed: 7.2921151467e-05  # rad/s
+earth_gravity: 9.801
+
+# reference point
+ref_longitude: 116.3200526
+ref_latitude: 40.0085592
+
+# kalman prediction process std
+position_error_prior_std: 1.0e-5
+velocity_error_prior_std: 1.0e-5
+rotation_error_prior_std: 1.0e-5
+gyro_bias_error_prior_std: 1.0e-5
+accelerometer_bias_error_prior_std: 1.0e-5
+
+# imu sensor noise
+gyro_noise_std: 1.0e-2
+accelerometer_noise_std: 1.0e-2
+
+# kalman measurement process std (uint: m)
+gps_position_x_std: 5
+gps_position_y_std: 5
+gps_position_z_std: 8
+
+# only use prediction, equivalent to only using IMU to integration, 无需修改
+only_prediction: false  
+
+# use earth model
+use_earth_model: false
+
+# initial orientation
+init_yaw: 0
+init_pitch: 0
+init_roll: 0

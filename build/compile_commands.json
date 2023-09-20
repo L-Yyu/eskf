@@ -1,0 +1,62 @@
+[
+{
+  "directory": "/home/corki/eskf/build",
+  "command": "/usr/bin/g++ -DDEPS_EXPORTS -I/usr/include/eigen3 -I/home/corki/eskf/3rd/GeographicLib/include -I/home/corki/eskf/include -g -fPIC -std=gnu++11 -o CMakeFiles/DEPS.dir/src/eskf.cpp.o -c /home/corki/eskf/src/eskf.cpp",
+  "file": "/home/corki/eskf/src/eskf.cpp"
+},
+{
+  "directory": "/home/corki/eskf/build",
+  "command": "/usr/bin/g++ -DDEPS_EXPORTS -I/usr/include/eigen3 -I/home/corki/eskf/3rd/GeographicLib/include -I/home/corki/eskf/include -g -fPIC -std=gnu++11 -o CMakeFiles/DEPS.dir/src/gps_tool.cpp.o -c /home/corki/eskf/src/gps_tool.cpp",
+  "file": "/home/corki/eskf/src/gps_tool.cpp"
+},
+{
+  "directory": "/home/corki/eskf/build",
+  "command": "/usr/bin/g++ -DDEPS_EXPORTS -I/usr/include/eigen3 -I/home/corki/eskf/3rd/GeographicLib/include -I/home/corki/eskf/include -g -fPIC -std=gnu++11 -o CMakeFiles/DEPS.dir/src/imu_tool.cpp.o -c /home/corki/eskf/src/imu_tool.cpp",
+  "file": "/home/corki/eskf/src/imu_tool.cpp"
+},
+{
+  "directory": "/home/corki/eskf/build",
+  "command": "/usr/bin/g++ -DDEPS_EXPORTS -I/usr/include/eigen3 -I/home/corki/eskf/3rd/GeographicLib/include -I/home/corki/eskf/include -g -fPIC -std=gnu++11 -o CMakeFiles/DEPS.dir/src/eskf_flow.cpp.o -c /home/corki/eskf/src/eskf_flow.cpp",
+  "file": "/home/corki/eskf/src/eskf_flow.cpp"
+},
+{
+  "directory": "/home/corki/eskf/build",
+  "command": "/usr/bin/g++ -DDEPS_EXPORTS -I/usr/include/eigen3 -I/home/corki/eskf/3rd/GeographicLib/include -I/home/corki/eskf/include -g -fPIC -std=gnu++11 -o CMakeFiles/DEPS.dir/src/observability_analysis.cpp.o -c /home/corki/eskf/src/observability_analysis.cpp",
+  "file": "/home/corki/eskf/src/observability_analysis.cpp"
+},
+{
+  "directory": "/home/corki/eskf/build",
+  "command": "/usr/bin/g++  -I/usr/include/eigen3 -I/home/corki/eskf/3rd/GeographicLib/include -I/home/corki/eskf/include -g -std=gnu++11 -o CMakeFiles/gps_imu_fusion.dir/app/gps_imu_fusion.cpp.o -c /home/corki/eskf/app/gps_imu_fusion.cpp",
+  "file": "/home/corki/eskf/app/gps_imu_fusion.cpp"
+},
+{
+  "directory": "/home/corki/eskf/build",
+  "command": "/usr/bin/g++  -I/usr/include/eigen3 -I/home/corki/eskf/3rd/GeographicLib/include -I/home/corki/eskf/include -g -std=gnu++11 -o CMakeFiles/test_gps.dir/test/test_gps.cpp.o -c /home/corki/eskf/test/test_gps.cpp",
+  "file": "/home/corki/eskf/test/test_gps.cpp"
+},
+{
+  "directory": "/home/corki/eskf/build",
+  "command": "/usr/bin/g++  -I/usr/include/eigen3 -I/home/corki/eskf/3rd/GeographicLib/include -I/home/corki/eskf/include -g -std=gnu++11 -o CMakeFiles/test_imu.dir/test/test_imu.cpp.o -c /home/corki/eskf/test/test_imu.cpp",
+  "file": "/home/corki/eskf/test/test_imu.cpp"
+},
+{
+  "directory": "/home/corki/eskf/build",
+  "command": "/usr/bin/g++  -I/usr/include/eigen3 -I/home/corki/eskf/3rd/GeographicLib/include -I/home/corki/eskf/include -g -std=gnu++11 -o CMakeFiles/test_tool.dir/test/test_tool.cpp.o -c /home/corki/eskf/test/test_tool.cpp",
+  "file": "/home/corki/eskf/test/test_tool.cpp"
+},
+{
+  "directory": "/home/corki/eskf/build/GeographicLib",
+  "command": "/usr/bin/g++ -DlibGeographiccc_EXPORTS -I/usr/include/eigen3 -I/home/corki/eskf/3rd/GeographicLib/./include -g -fPIC -std=gnu++11 -o CMakeFiles/libGeographiccc.dir/src/LocalCartesian.cpp.o -c /home/corki/eskf/3rd/GeographicLib/src/LocalCartesian.cpp",
+  "file": "/home/corki/eskf/3rd/GeographicLib/src/LocalCartesian.cpp"
+},
+{
+  "directory": "/home/corki/eskf/build/GeographicLib",
+  "command": "/usr/bin/g++ -DlibGeographiccc_EXPORTS -I/usr/include/eigen3 -I/home/corki/eskf/3rd/GeographicLib/./include -g -fPIC -std=gnu++11 -o CMakeFiles/libGeographiccc.dir/src/Geocentric.cpp.o -c /home/corki/eskf/3rd/GeographicLib/src/Geocentric.cpp",
+  "file": "/home/corki/eskf/3rd/GeographicLib/src/Geocentric.cpp"
+},
+{
+  "directory": "/home/corki/eskf/build/GeographicLib",
+  "command": "/usr/bin/g++ -DlibGeographiccc_EXPORTS -I/usr/include/eigen3 -I/home/corki/eskf/3rd/GeographicLib/./include -g -fPIC -std=gnu++11 -o CMakeFiles/libGeographiccc.dir/src/Math.cpp.o -c /home/corki/eskf/3rd/GeographicLib/src/Math.cpp",
+  "file": "/home/corki/eskf/3rd/GeographicLib/src/Math.cpp"
+}
+]
